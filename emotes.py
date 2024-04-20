@@ -190,7 +190,8 @@ emote_mapping = {
     "ditzy": {"value": "emote-pose9", "time": 4.5},
     "95": {"value": "emote-pose9", "time": 4.5},
     "smooch": {"value": "emote-kissing-bound", "time": 4.5},
-    "96": {"value": "emote-kissing-bound", "time": 4.5}
+    "96": {"value": "emote-kissing-bound", "time": 4.5},
+    "97": {"value": "dance-wild", "time": 20}
 }
 
 

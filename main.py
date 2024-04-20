@@ -53,7 +53,11 @@ class Bot(BaseBot):
   
 
     async def on_chat(self, user: User, message: str) -> None:
-        """On a received room-wide chat."""     
+        """On a received room-wide chat."""    
+
+        if message.lower().startswith("oyna"):
+          await self.highrise.send_emote("dance-wild")
+      
 
         message = message.lower()
 
